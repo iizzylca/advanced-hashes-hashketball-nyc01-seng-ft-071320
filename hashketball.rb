@@ -196,6 +196,7 @@ def player_numbers(team_name)
       end
     end
   end
+  numbers_array << key[:number]
 end
 
 def player_stats
