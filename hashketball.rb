@@ -133,6 +133,7 @@ def num_points_scored(player_name)
     team_info.each do |sub_team_headers, team_stats|
       binding.pry
       team_stats.each do |stat_details|
+        binding.pry
       end
     end
   end
