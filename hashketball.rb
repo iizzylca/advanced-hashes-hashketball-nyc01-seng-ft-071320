@@ -145,7 +145,7 @@ def num_points_scored(player_name)
 end
 
 def shoe_size(player_name)
-
+  game_hash
 end
 
 def team_colors
