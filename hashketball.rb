@@ -128,7 +128,9 @@ def game_hash
 end
 
 def num_points_scored(hash)
-  game_hash.each_with_object({}) do |k, v|
+  game_hash.each_with_object({}) do |(k, v), final_oc|
+    final_oc
+  end
   binding.pry
 
   end
