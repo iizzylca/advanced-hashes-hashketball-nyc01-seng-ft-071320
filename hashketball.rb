@@ -131,3 +131,18 @@ end
 
 def shoe_size
 end
+
+def team_colors
+end
+
+def team_names
+end
+
+def player_number
+end
+
+def player_stats
+end
+
+def big_shoe_rebounds
+end
