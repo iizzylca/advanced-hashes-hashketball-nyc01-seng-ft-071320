@@ -217,6 +217,9 @@ game_hash
   game_hash.each do |team, team_info|
     team_info.each do |team_level, data|
       if data.class == Array
+        if data[0].class == Hash
+
+      end
     end
     binding.pry
   end
