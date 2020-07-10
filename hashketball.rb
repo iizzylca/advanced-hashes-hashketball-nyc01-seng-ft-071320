@@ -251,6 +251,7 @@ game_hash
 end
 
 def big_shoe_rebounds
-  rebounds()
+  biggest_shoe_player
+  
 
 end
