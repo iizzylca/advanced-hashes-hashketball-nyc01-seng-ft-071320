@@ -228,4 +228,5 @@ game_hash
       end
     end
   end
+  biggest_shoe
 end
