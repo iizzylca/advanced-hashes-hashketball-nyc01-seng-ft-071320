@@ -199,7 +199,7 @@ def player_stats(player_name)
     team_info.each do |team_level, data|
       if data.class == Array
         if data[0] == Hash
-
+          binding.pry
         end
       end
     end
