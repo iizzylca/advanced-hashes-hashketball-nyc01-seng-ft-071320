@@ -193,7 +193,8 @@ def player_numbers(team_name)
   numbers_array
 end
 
-def player_stats
+def player_stats(player_name)
+  game_hash
 end
 
 def big_shoe_rebounds
