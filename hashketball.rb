@@ -166,7 +166,6 @@ def team_colors(team_name)
   game_hash
   game_hash.each do |team, team_info|
     if team_info.each do |team_level, data|
-      if data.class == Array
         if team_info[:team_name] == team_name
           return data
         end
