@@ -177,6 +177,7 @@ def team_names
   game_hash.each do |team, team_info|
     new_array << team_info[:team_name]
   end
+  new_array
 end
 
 def player_number
