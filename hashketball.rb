@@ -184,6 +184,7 @@ def player_numbers(team_name)
   numbers_array = []
   game_hash
   game_hash.each do |team, team_info|
+    binding.pry
   end
 end
 
