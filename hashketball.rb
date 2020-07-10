@@ -214,7 +214,8 @@ def big_shoe_rebounds
 biggest_shoe = 0
 big_shoe_player = ""
 game_hash
-  game_hash.each do |
+  game_hash.each do |team, team_info|
+    binding.pry
   end
 
 end
