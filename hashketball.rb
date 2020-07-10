@@ -168,6 +168,7 @@ def team_colors(team_name)
     team_info.each do |team_level, data|
       if data.class == Array
         binding.pry
+      end
     end
   end
 end
