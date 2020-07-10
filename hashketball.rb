@@ -128,7 +128,7 @@ def game_hash
 end
 
 def num_points_scored(hash)
-  k
+  game_hash.each_with_object
 #binding.pry
 
 
