@@ -132,6 +132,7 @@ def num_points_scored(hash)
   final_oc
   binding.pry
 end
+end
 
 def shoe_size
 end
