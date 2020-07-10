@@ -220,6 +220,7 @@ game_hash
         if data[0].class == Hash
           data.each do |key, value|
             if key[:shoe] > biggest_shoe
+              biggest_shoe = key[:shoe]
               big_shoe_player = key[:player_name]
             end
           end
