@@ -127,7 +127,7 @@ def game_hash
 end
 
 def num_points_scored(hash)
-  game_hash[:away][:players][:player_name(0)]
+  game_hash[:away][:players][:player_name[0]
 end
 
 def shoe_size
