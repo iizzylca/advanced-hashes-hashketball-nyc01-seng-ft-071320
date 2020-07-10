@@ -219,7 +219,7 @@ game_hash
       if data.class == Array
         if data[0].class == Hash
           data.each do |key, value|
-
+            binding.pry
           end
         end
       end
