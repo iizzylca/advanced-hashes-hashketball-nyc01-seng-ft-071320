@@ -130,10 +130,9 @@ end
 def num_points_scored(hash)
   game_hash
   game_hash.each do |k, v|
-  end
-
   binding.pry
   end
+binding.pry
 end
 
 def shoe_size
