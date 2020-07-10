@@ -134,6 +134,7 @@ def num_points_scored(player_name)
       #binding.pry
       team_stats.each do |stat_details|
       end
+      binding.pry
     end
   end
 end
