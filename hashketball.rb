@@ -189,7 +189,7 @@ def player_numbers(team_name)
         if data[0].class == Hash
           data.each do |key, value|
             if key[:player_name] == player_name
-              return key[:shoe]
+              return key[:number]
             end
           end
         end
