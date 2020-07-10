@@ -172,7 +172,7 @@ def team_colors(team_name)
 end
 
 def team_names
-  new_array = []
+  names_array = []
   game_hash
   game_hash.each do |team, team_info|
     new_array << team_info[:team_name]
