@@ -128,7 +128,7 @@ def game_hash
 end
 
 def num_points_scored(hash)
-  game_hash.map do ||
+  game_hash.map do |(k, v), a|
 
   end
 #binding.pry
