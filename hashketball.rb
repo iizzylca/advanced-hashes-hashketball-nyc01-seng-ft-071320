@@ -168,7 +168,6 @@ def team_colors(team_name)
     team_info.each do |team_level, data|
       if data.class == Array
         if team_info[:team_name] == team_name
-          binding.pry
           return data
         end
       end
