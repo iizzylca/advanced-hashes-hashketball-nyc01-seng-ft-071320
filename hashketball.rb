@@ -166,7 +166,8 @@ def team_colors(team_name)
   game_hash
   game_hash.each do |team, team_info|
     team_info.each do |team_level, data|
-      binding.pry
+      if data.class == Array
+        binding.pry
     end
   end
 end
