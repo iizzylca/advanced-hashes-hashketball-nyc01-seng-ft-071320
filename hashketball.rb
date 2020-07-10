@@ -211,9 +211,10 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  biggest_shoe = 0
-  big_shoe_player = ""
-  game_hash
+biggest_shoe = 0
+big_shoe_player = ""
+game_hash
   game_hash.each do |
+  end
 
 end
