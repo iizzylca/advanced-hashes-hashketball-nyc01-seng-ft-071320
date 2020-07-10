@@ -221,8 +221,8 @@ game_hash
           data.each do |key, value|
             if biggest_shoe > key[:shoe]
               big_shoe_player << key[:player_name]
-            end
               binding.pry
+            end
           end
         end
       end
