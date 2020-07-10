@@ -131,7 +131,7 @@ def num_points_scored(hash)
   game_hash.each_with_object({}) do |(k, v), final_oc|
   final_oc
   binding.pry
-end
+  end
 end
 
 def shoe_size
