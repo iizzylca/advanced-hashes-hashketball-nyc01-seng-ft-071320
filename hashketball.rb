@@ -135,7 +135,7 @@ def num_points_scored(player_name)
         if data[0].class == Hash
           data.each do |key, value|
             if key[:player_name] == player_name
-
+              binding.pry
             end
           end
         end
