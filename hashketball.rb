@@ -180,7 +180,7 @@ def team_names
   names_array
 end
 
-def player_number
+def player_number(player_name)
 
 end
 
