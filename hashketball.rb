@@ -227,5 +227,5 @@ game_hash
       end
     end
   end
-  big_shoe_player
+big_shoe_player
 end
