@@ -219,7 +219,7 @@ game_hash
       if data.class == Array
         if data[0].class == Hash
           data.each do |key, value|
-            if biggest_shoe > key[:shoe]
+            if key[:shoe] > biggest_shoe
               big_shoe_player << key[:player_name]
               binding.pry
             end
