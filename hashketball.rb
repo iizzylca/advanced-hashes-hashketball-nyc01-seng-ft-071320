@@ -198,7 +198,9 @@ def player_stats(player_name)
   game_hash.each do |team, team_info|
     team_info.each do |team_level, data|
       if data.class == Array
+        if data[0] == Hash
 
+        end
       end
     end
   end
