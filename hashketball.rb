@@ -212,7 +212,7 @@ def player_stats(player_name)
   end
 end
 
-def big_shoe_baller
+def big
 biggest_shoe = 0
 big_shoe_player = ""
 game_hash
@@ -231,6 +231,7 @@ game_hash
     end
   end
 big_shoe_player
+end
 
 def rebounds(player_name)
 game_hash
@@ -250,5 +251,6 @@ game_hash
 end
 
 def big_shoe_rebounds
+  rebounds()
 
 end
