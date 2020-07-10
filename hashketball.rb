@@ -229,5 +229,4 @@ game_hash
     end
   end
   big_shoe_player
-  #binding.pry
 end
