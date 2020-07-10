@@ -232,7 +232,7 @@ game_hash
   end
 big_shoe_player
 
-def rebounds
+def rebounds(player_name)
 
 end
 
