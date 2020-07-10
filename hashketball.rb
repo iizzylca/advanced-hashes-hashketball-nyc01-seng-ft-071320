@@ -236,8 +236,6 @@ def rebounds(player_name)
 game_hash
   game_hash.each do |team, team_info|
   end
-
-
 end
 
 def big_shoe_rebounds
