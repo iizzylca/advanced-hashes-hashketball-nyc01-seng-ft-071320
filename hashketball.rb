@@ -175,7 +175,6 @@ def team_names
 new_array = []
   game_hash.each do |team, team_info|
     return team_info[:team_name] << new_array
-    binding.pry
   end
 end
 
