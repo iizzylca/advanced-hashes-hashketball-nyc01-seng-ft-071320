@@ -241,6 +241,7 @@ game_hash
           data.each do |key, value|
             if key[:player_name] == player_name
               return key[:rebounds]
+            end
           end
         end
       end
