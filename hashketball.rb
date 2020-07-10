@@ -129,7 +129,8 @@ end
 
 def num_points_scored(hash)
   game_hash.each_with_object({}) do |(k, v), final_oc|
-    if final_oc[k]
+    if k == k && v[:players] == hash 
+      return k[:players][:]
   binding.pry
   end
 end
