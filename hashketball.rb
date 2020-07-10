@@ -224,5 +224,4 @@ game_hash
     end
     binding.pry
   end
-
 end
