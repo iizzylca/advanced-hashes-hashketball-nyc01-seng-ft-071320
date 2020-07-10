@@ -187,6 +187,7 @@ def player_numbers(team_name)
     if team_info[:team_name] == team_name
       #binding.pry
       team_info[:players].each do |key, value|
+        numbers_array << key[:number]
         binding.pry
       end
     end
