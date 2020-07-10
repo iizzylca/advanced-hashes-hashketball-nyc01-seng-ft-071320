@@ -184,7 +184,18 @@ def player_numbers(team_name)
   numbers_array = []
   game_hash
   game_hash.each do |team, team_info|
-    binding.pry
+    team_info.each do |team_level, data|
+      if data.class == Array
+        #binding.pry
+        if data[0].class == Hash
+          data.each do |key, value|
+            if key[:player_name] == player_name
+              return key[:shoe]
+            end
+          end
+        end
+      end
+    end
   end
 end
 
