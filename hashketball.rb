@@ -149,6 +149,7 @@ def shoe_size(player_name)
   game_hash.each do |team, team_info|
     team_info.each do |team_level, data|
       if data.class == Array
+        binding.pry
         if data[0].class == Hash
           data.each do |key, value|
             if key[:player_name] == player_name
