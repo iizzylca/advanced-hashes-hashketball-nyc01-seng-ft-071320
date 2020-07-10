@@ -218,10 +218,11 @@ game_hash
     team_info.each do |team_level, data|
       if data.class == Array
         if data[0].class == Hash
+          data.each do |key, value|
 
+          end
         end
       end
     end
-    binding.pry
   end
 end
