@@ -227,6 +227,6 @@ game_hash
       end
     end
   end
-  biggest_shoe
+  biggest_shoe_player
   binding.pry
 end
