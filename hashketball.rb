@@ -129,6 +129,7 @@ end
 
 def num_points_scored(hash)
   game_hash.map do |e|
+
   end
 #binding.pry
 
