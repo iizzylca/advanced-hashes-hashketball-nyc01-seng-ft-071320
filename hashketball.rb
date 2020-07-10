@@ -195,6 +195,7 @@ end
 
 def player_stats(player_name)
   game_hash
+  game_hash.each_with_object({})
 end
 
 def big_shoe_rebounds
